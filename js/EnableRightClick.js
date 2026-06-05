@@ -1,6 +1,6 @@
 
 /*
-	/js/BlockRightClicks.js
+	/js/EnableRightClick.js
 	Author: YttriumLab
 	Copyright (c) 2026 YttriumLab. All rights reserved.
 */
