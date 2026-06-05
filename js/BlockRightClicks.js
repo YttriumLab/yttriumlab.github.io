@@ -43,4 +43,4 @@ var EnableRightClick=function(enabled)
 	}
 }
 
-EnableRightClick(false);
+window.onload=function(){EnableRightClick(false);}
