@@ -1,0 +1,109 @@
+/*
+	/css/base.css
+	Author: YttriumLab
+	Copyright (c) 2026 YttriumLab. All rights reserved.
+*/
+
+
+/* --- BASE --- */
+
+html,body
+{
+	margin:0;
+	padding:0;
+	background:#f3f1e8;
+	color:#2b2b2b;
+	font-family:garamond,serif;
+}
+
+a
+{
+	color:#2b2b2b;
+	text-decoration:underline;
+}
+a:hover {color:#666;}
+
+.section
+{
+	margin:18px 0 8px 0;
+	font-variant:small-caps;
+	letter-spacing:1px;
+	font-size:16px;
+	color:#3a3a3a;
+	border-bottom:1px dotted #bdb6a6;
+	padding-bottom:2px;
+}
+
+.par,.paragraph
+{
+	margin:6px 0 10px 0;
+	padding-left:2px;
+}
+
+.listing
+{
+	margin:6px 0;
+	font-size: 14px;
+}
+.listing a
+{
+	font-variant: normal;
+}
+
+img {border: none;}
+
+hr
+{
+	border:0;
+	border-top:1px dotted #bdb6a6;
+	margin:12px 0;
+}
+
+/* --- TABLE --- */
+
+.wrapper
+{
+	width:860px;
+	margin:30px auto;
+	border-collapse:collapse;
+	background:#fffdf7;
+	border:1px solid #c9c3b5;
+	box-shadow:2px 2px 0px #d6d0c2;
+}
+
+.header
+{
+	height:120px;
+	background:#e9e4d6;
+	border-bottom:1px solid #c9c3b5;
+}
+#headerImg
+{
+	height:120px;
+	background:url('/img/header.gif') center center no-repeat;
+}
+
+.nav
+{
+	width:180px;
+	vertical-align:top;
+	background:#f6f3ea;
+	border-right:1px solid #c9c3b5;
+	padding:10px;
+}
+
+.content
+{
+	padding:18px;
+	vertical-align:top;
+}
+
+.footer
+{
+	background:#e9e4d6;
+	border-top:1px solid #c9c3b5;
+	text-align:center;
+	padding:10px;
+	font-size:12px;
+	color:#555;
+}
