@@ -1,4 +1,3 @@
-
 /*
 	/js/EnableRightClick.js
 	Author: YttriumLab
