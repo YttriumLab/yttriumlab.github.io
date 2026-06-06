@@ -1,4 +1,3 @@
-
 /*
 	DomTools.js
 	Author: YttriumLab
