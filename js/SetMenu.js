@@ -8,12 +8,28 @@
 
 (function()
 {
-	var xhr=new XMLHttpRequest();
-	xhr.open('GET','/templates/menu.htm',true);
-	xhr.onreadystatechange=function()
+	var retry=0;
+	
+	var Load=function()
 	{
-		if(xhr.readyState===4&&xhr.status===200)
-			document.getElementById('nav').innerHTML=xhr.responseText;
+		var xhr=new XMLHttpRequest();
+		xhr.open('GET','/templates/menu.htm',true);
+		xhr.onreadystatechange=function()
+		{
+			if(xhr.readyState===4)
+			{
+				if(xhr.status===200)
+					document.getElementById('nav').innerHTML=xhr.responseText;
+				else if(retry<1)
+				{
+					retry++;
+					window.setTimeout(Load,500);//retry on failure
+				}
+				else
+					document.getElementById('nav').innerHTML='<div class="par">Menu unavailable.</div>';
+			}
+		}
+		xhr.send();
 	}
-	xhr.send();
+	Load();
 })();
