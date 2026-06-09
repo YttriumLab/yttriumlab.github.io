@@ -42,4 +42,4 @@ var EnableRightClick=function(enabled)
 	}
 }
 
-window.onload=function(){EnableRightClick(false);}
+window.addEventListener('load',function(){EnableRightClick(false);});
