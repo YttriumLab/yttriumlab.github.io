@@ -15,6 +15,7 @@
 	var Load=function()
 	{
 		console.log('[Menu] Loading menu ... (try '+(retry+1)+')');
+		document.getElementById('nav').innerHTML='<div class="par">Loading Menu ...</div>';
 		
 		var xhr=new XMLHttpRequest();
 		xhr.open('GET',url,true);
