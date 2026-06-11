@@ -59,6 +59,8 @@ hr
 	margin:12px 0;
 }
 
+.monospace {font-family:courier,monospace;}
+
 /* --- TABLE --- */
 
 .wrapper
