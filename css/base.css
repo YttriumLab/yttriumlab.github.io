@@ -61,6 +61,12 @@ hr
 
 .monospace {font-family:courier,monospace;}
 
+.note
+{
+	margin:6px 0 10px 0;
+	font-size:80%;
+}
+
 /* --- TABLE --- */
 
 .wrapper
